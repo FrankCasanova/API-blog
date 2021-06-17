@@ -8,7 +8,7 @@ router.register('users', UserViewSet, basename='users')
 router.register('posts', PostViewSet, basename='posts')
 
 
-urlpatterns = routers.urls
+urlpatterns = router.urls
 
 # path('<int:pk>/', PostDetail.as_view()),
 # path('', PostList.as_view()),
