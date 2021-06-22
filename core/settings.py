@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
+    # documentation
+    'drf_yasg',
+
     # our apps
     'posts',
 ]
